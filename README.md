@@ -44,7 +44,7 @@ Generated samples after 60 epochs of training.
 
 [**PORTFOLIO**](https://gsurma.github.io)
 
-[**GITHUB**](https://github.com/gsurma)
+[**GITHUB**](https://github.com/niazwazir)
 
 [**BLOG**](https://medium.com/@gsurma)
 
