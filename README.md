@@ -2,7 +2,7 @@
   <img src="assets/face_generator_icon_web.png" width="300">
 </h3>
 
-# Face Generator
+# VTRG Face Generator
 
 Python notebook containing TensorFlow DCGAN implementation. It was trained on a [Celebrities](https://www.kaggle.com/greg115/celebrities-100k) dataset.
 
