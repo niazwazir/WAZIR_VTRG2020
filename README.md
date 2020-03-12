@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="assets/Faces.png" width="300">
+  <img src="Faces.png" width="300">
 </h3>
 
 # VTRG Face Generator
