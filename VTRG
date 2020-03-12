@@ -17,7 +17,7 @@ Network architecture by [Radford et al., 2015](https://arxiv.org/abs/1511.06434)
 
 ## Training
 Visualization of training with the following hyperparameteres.
-<img src="assets/VTRG2020.gif">
+<img src="VTRG2020.gif">
 
 	DATASET_SIZE = 100000
 	IMAGE_SIZE = 128
