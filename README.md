@@ -40,7 +40,7 @@ Generated samples after 60 epochs of training.
 
 ## Author
 
-**Greg (Grzegorz) Surma**
+**Wazir Muhammad Laghari**
 
 [**PORTFOLIO**](https://gsurma.github.io)
 
