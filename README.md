@@ -8,7 +8,8 @@ Python notebook containing Keras TensorFlow GAN Network implementation. It was t
 
 Check out corresponding Medium article: [Face Generator - Generating Artificial Faces with Machine Learning 🧑](https://towardsdatascience.com/face-generator-generating-artificial-faces-with-machine-learning-9e8c3d6c1ead).
 
-Check out corresponding Kaggle kernel: [Face Generator](https://www.kaggle.com/greg115/face-generator-dcgan-celebrities).
+Check out corresponding Kaggle kernel: [Face Generator](https://www.kaggle.com/greg115/face-generator-dcgan-celebrities)
+and (https://www.kaggle.com/bansalyash/div2k-hr) 
 
 
 ## DCGAN
