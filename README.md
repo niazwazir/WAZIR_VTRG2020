@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="assets/face_generator_icon_web.png" width="300">
+  <img src="assets/Faces.png" width="300">
 </h3>
 
 # VTRG Face Generator
@@ -13,7 +13,7 @@ and (https://www.kaggle.com/bansalyash/div2k-hr)
 
 
 ## DCGAN
-Network architecture by [Radford et al., 2015](https://arxiv.org/abs/1511.06434).
+Network architecture by [Wazir Muhammad et al., 2015](https://arxiv.org/abs/1511.06434).
 <img src="assets/model.png">
 
 ## Training
