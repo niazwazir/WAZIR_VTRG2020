@@ -1,56 +1,26 @@
-<h3 align="center">
-  <img src="Faces.png" width="300">
-</h3>
+# VAE-SRCNN
+results of training SRCNN Image Super-Resolution network on a VAE's output
 
-# VTRG Face Generator
+## VAE 
 
-Python notebook containing Keras TensorFlow GAN Network implementation. It was trained on a [Celebrities](https://www.kaggle.com/greg115/celebrities-100k) dataset.
+![output](https://github.com/l3th4l/VAE-SRCNN/blob/master/gifs/ezgif-2-48c8fa9858c5.gif)
 
-Check out corresponding Medium article: [Face Generator - Generating Artificial Faces with Machine Learning 🧑](https://towardsdatascience.com/face-generator-generating-artificial-faces-with-machine-learning-9e8c3d6c1ead).
+*left* : Reconstructed Output , *right* : Ground Truth
 
-Check out corresponding Kaggle kernel: [Face Generator](https://www.kaggle.com/greg115/face-generator-dcgan-celebrities)
-and (https://www.kaggle.com/bansalyash/div2k-hr) 
+### Latent Space Interpolation 
+![latent](https://github.com/l3th4l/VAE-SRCNN/blob/master/gifs/ezgif.com-gif-maker_r.gif)
 
+### SRCNN on VAE output 
+![srcnn](https://github.com/l3th4l/VAE-SRCNN/blob/master/gifs/ezgif-2-f32a39f57016.gif) 
 
-## DCGAN
-Network architecture by [Wazir Muhammad et al., 2015](https://arxiv.org/abs/1511.06434).
-<img src="assets/model.png">
+*left* : VAE Output , *right* : Result on applying SRCNN on VAE output 
 
-## Training
-Visualization of training with the following hyperparameteres.
-<img src="VTRG2020.gif">
-<img src="wazir.gif">
+**P.S. Didn't go quiet as expected. The results turned out to be more blurry than the VAE output but it eleminated some of the 
+noise and was better in some cases like the one below:**
 
-	DATASET_SIZE = 100000
-	IMAGE_SIZE = 128
-	NOISE_SIZE = 100
-	LR_D = 0.00004
-	LR_G = 0.0002
-	BATCH_SIZE = 64
-	EPOCHS = 60
-	BETA1 = 0.5
-	WEIGHT_INIT_STDDEV = 0.02
-	EPSILON = 0.00005
-
-
-## Results
-
-Generated samples after 60 epochs of training.
-
-<img src="assets/final_grid.png">
-
-
-## Author
-
-**Wazir Muhammad Laghari**
-
-[**PORTFOLIO**](https://gsurma.github.io)
-
-[**GITHUB**](https://github.com/niazwazir)
-
-[**BLOG**](https://medium.com/@gsurma)
-
-<a href="https://www.paypal.com/paypalme2/grzegorzsurma115">
-  <img alt="Support via PayPal" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg"/>
-</a>
-
+#### Ground Truth :
+![gt](https://media.discordapp.net/attachments/542340298408198145/647754592964182028/wH3GV2UoqFxowAAAABJRU5ErkJggg.png?width=229&height=227)
+#### VAE :
+![ae](https://media.discordapp.net/attachments/542340298408198145/647754549137899532/BlAH8G355p4Y9MvciIrYQkbkXEbGFiDdRMQWIt74ERFbiHjjR0RsIeKNHxGxhYg3fkTEFiLeBERW4h440dEbCHD2gOTtFKULD0AA.png?width=229&height=227)
+#### SRCNN on VAE output :
+![sr](https://media.discordapp.net/attachments/542340298408198145/647754566938394672/KcGu7KbeC7MAAAAASUVORK5CYII.png?width=229&height=227)
